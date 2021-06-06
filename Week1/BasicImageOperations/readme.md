@@ -9,6 +9,7 @@
 # How to run
 OpenCV libs, cmake, VS19 (or some version) need to be installed.
 To build & run in root dir either at:
+
 **Command prompt**
 * mkdir results
 * mkdir build
@@ -21,6 +22,7 @@ To build & run in root dir either at:
 Or just type "run.bat".
 
 **Shell**
+
 mkdir results
 mkdir build
 cd build
@@ -39,6 +41,6 @@ TestApp is the driver and I started to abstract duplicate functionality / repeti
 # Sample output
 This shows an example of cropping, copying a region of interest and creting a mask.
 
-![Cropped image](crop.png cropped image)
-![ROI copied](copiedRegions.png region of interest copied)
-![Creating a mask](mask2.png creating a mask)
+![Cropped image](crop.png "cropped image")
+![ROI copied](copiedRegions.png "region of interest copied")
+![Creating a mask](mask2.png "creating a mask")
