@@ -43,4 +43,4 @@ This shows an example of cropping, copying a region of interest and creating a m
 
 ![ROI copied](copiedRegions.png "region of interest copied")
 ![Creating a mask](mask2.png "creating a mask")
-![Cropped image](crop.png "cropped image")
+![Cropped image](crop.png "cropped image") 
