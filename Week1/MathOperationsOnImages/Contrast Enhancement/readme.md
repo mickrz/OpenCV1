@@ -1,4 +1,4 @@
-## Getting Started with images
+## Contrast Enhancement
 # Demos of:
 * contrast enhance --> I (output) = alpha * I (input) - simplest way is scaling
 
