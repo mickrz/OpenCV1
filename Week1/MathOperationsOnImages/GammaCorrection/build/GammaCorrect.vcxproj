@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C27C0B06-168D-33AA-BF7D-AB489A68B860}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GammaCorrect</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GammaCorrect.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GammaCorrect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GammaCorrect.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GammaCorrect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GammaCorrect.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GammaCorrect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GammaCorrect.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GammaCorrect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_gapi450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stitching450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_aruco450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bgsegm450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bioinspired450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ccalib450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_objdetect450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_superres450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dpm450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_face450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_fuzzy450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_hfs450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_img_hash450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_intensity_transform450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_line_descriptor450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_mcc450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_quality450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rapid450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_reg450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rgbd450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stereo450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_structured_light450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_superres450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_surface_matching450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_tracking450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videostab450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xfeatures2d450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xobjdetect450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xphoto450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ade.lib;wsock32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450d.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libprotobufd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libjpeg-turbod.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libwebpd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libpngd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libtiffd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libopenjp2d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\IlmImfd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\quircd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\zlibd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ittnotifyd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippiwd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/Debug/GammaCorrect.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/Debug/GammaCorrect.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_gapi450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stitching450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_aruco450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bgsegm450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bioinspired450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ccalib450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_superres450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dpm450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_face450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_fuzzy450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_hfs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_img_hash450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_intensity_transform450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_line_descriptor450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_mcc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_quality450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rapid450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_reg450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rgbd450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stereo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_structured_light450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_superres450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_surface_matching450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_tracking450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videostab450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xfeatures2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xobjdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xphoto450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ade.lib;wsock32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libprotobuf.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libjpeg-turbo.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libwebp.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libpng.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libtiff.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libopenjp2.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\IlmImf.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\quirc.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\zlib.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ittnotify.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippiw.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/Release/GammaCorrect.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/Release/GammaCorrect.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_gapi450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stitching450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_aruco450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bgsegm450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bioinspired450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ccalib450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_superres450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dpm450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_face450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_fuzzy450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_hfs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_img_hash450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_intensity_transform450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_line_descriptor450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_mcc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_quality450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rapid450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_reg450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rgbd450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stereo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_structured_light450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_superres450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_surface_matching450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_tracking450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videostab450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xfeatures2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xobjdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xphoto450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ade.lib;wsock32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libprotobufd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libjpeg-turbod.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libwebpd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libpngd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libtiffd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libopenjp2d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\IlmImfd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\quircd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\zlibd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ittnotifyd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippiwd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/MinSizeRel/GammaCorrect.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/MinSizeRel/GammaCorrect.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_gapi450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stitching450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_aruco450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bgsegm450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_bioinspired450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ccalib450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn_superres450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dpm450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_face450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_fuzzy450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_hfs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_img_hash450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_intensity_transform450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_line_descriptor450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_mcc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_quality450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rapid450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_reg450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_rgbd450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_stereo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_structured_light450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_superres450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_surface_matching450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_tracking450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videostab450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xfeatures2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xobjdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_xphoto450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ade.lib;wsock32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_shape450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_highgui450.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_datasets450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_plot450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_text450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_dnn450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libprotobufd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ml450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_phase_unwrapping450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_optflow450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_ximgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_video450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_videoio450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgcodecs450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libjpeg-turbod.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libwebpd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libpngd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libtiffd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\libopenjp2d.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\IlmImfd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_objdetect450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_calib3d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_features2d450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_flann450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\quircd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_photo450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_imgproc450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\opencv_core450.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\zlibd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ittnotifyd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippiwd.lib;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\ippicvmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/RelWithDebInfo/GammaCorrect.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/RelWithDebInfo/GammaCorrect.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection -BC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build --check-stamp-file C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeSystem.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig-version.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-debug.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-release.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection -BC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build --check-stamp-file C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeSystem.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig-version.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-debug.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-release.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection -BC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build --check-stamp-file C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeSystem.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig-version.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-debug.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-release.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection -BC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build --check-stamp-file C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeCXXCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeRCCompiler.cmake;C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\3.20.2\CMakeSystem.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig-version.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVConfig.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-debug.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules-release.cmake;C:\Users\miker\OpenCV\opencv-4.5.0\Installation\x64\vc16\staticlib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\TestApp.cpp" />
+    <ClCompile Include="C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\Utiliies.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\miker\Documents\Github\OpenCV1\Week1\MathOperationsOnImages\GammaCorrection\build\ZERO_CHECK.vcxproj">
+      <Project>{69E8062E-AE47-3C5B-8801-FB217B1E2394}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

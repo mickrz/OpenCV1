@@ -1,0 +1,10 @@
+^C:\USERS\MIKER\DOCUMENTS\GITHUB\OPENCV1\WEEK1\MATHOPERATIONSONIMAGES\GAMMACORRECTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection -BC:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build --check-stamp-file C:/Users/miker/Documents/Github/OpenCV1/Week1/MathOperationsOnImages/GammaCorrection/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
